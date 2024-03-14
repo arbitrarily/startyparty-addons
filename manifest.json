@@ -1,0 +1,13 @@
+  {
+    "manifest_version": 2,
+    "name": "Startpage",
+    "version": "1.0",
+    "description": "Loads an external website on new tab",
+    "permissions": [
+      "tabs"
+    ],
+    "chrome_url_overrides" : {
+      "newtab": "newtab.html"
+    }
+  }
+
