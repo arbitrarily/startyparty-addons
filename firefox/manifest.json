@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "startyparty",
-  "version": "3.4.2",
+  "version": "3.4.5",
   "description": "The start of it all.",
   "author": "Marko Bajlovic - (des)mosthenes",
   "homepage_url": "https://startyparty.dev",
@@ -16,7 +16,7 @@
     },
     "default_title": "startyparty"
   },
-  "permissions": ["browserSettings", "webNavigation", "storage", "tabs", "activeTab"],
+  "permissions": ["webNavigation", "storage", "tabs", "activeTab"],
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
