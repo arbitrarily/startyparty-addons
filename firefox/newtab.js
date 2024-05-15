@@ -5,7 +5,7 @@
  */
 
 async function redirectNewTab() {
-  const homepageUrl = "https://s.marko.tech"; /* Fallback to my personal website if homepage is a privileged URL */
+  const homepageUrl = "https://startyparty.dev"; /* Fallback to my personal website if homepage is a privileged URL */
   const focusPreference = await browser.storage.local
     .get({ focus: "website" })
     .then((data) => data.focus);

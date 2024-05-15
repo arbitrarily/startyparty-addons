@@ -1,5 +1,5 @@
 let isNewSession = true;
-const homepageUrl = "https://s.marko.tech";
+const homepageUrl = "https://startyparty.dev";
 
 chrome.tabs.onCreated.addListener((tab) => {
   if (
