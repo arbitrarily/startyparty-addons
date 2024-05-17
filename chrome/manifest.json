@@ -1,0 +1,30 @@
+{
+  "name": "startyparty",
+  "description": "the start of it all",
+  "homepage_url": "https://startyparty.dev",
+  "version": "3.4.1",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "background": {
+    "service_worker": "newtab.js"
+  },
+  "icons": {
+    "16": "icon--alt.png",
+    "32": "icon--alt.png",
+    "48": "icon--alt.png",
+    "128": "icon--alt.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon--alt.png",
+      "24": "icon--alt.png",
+      "32": "icon--alt.png",
+      "128": "icon--alt.png"
+    },
+    "default_title": "startyparty"
+  },
+
+  "manifest_version": 3
+}
