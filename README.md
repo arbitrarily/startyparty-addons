@@ -15,3 +15,9 @@ web-ext run
 ```bash
 web-ext build
 ```
+
+### firefox addon
+[https://addons.mozilla.org/en-US/firefox/addon/startyparty/](https://addons.mozilla.org/en-US/firefox/addon/startyparty/)
+
+### chrome addon
+*awaiting approval*
