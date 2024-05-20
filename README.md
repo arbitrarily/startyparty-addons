@@ -20,4 +20,4 @@ web-ext build
 [https://addons.mozilla.org/en-US/firefox/addon/startyparty/](https://addons.mozilla.org/en-US/firefox/addon/startyparty/)
 
 ### chrome addon
-*awaiting approval*
+[https://chromewebstore.google.com/detail/startyparty/niboekcakmfpliephbcjgoepgnffalme](https://chromewebstore.google.com/detail/startyparty/niboekcakmfpliephbcjgoepgnffalme)
