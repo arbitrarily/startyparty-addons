@@ -1,0 +1,20 @@
+{
+  "name": "startpage-addons",
+  "version": "1.0.0",
+  "description": "Startpage Browser Addon",
+  "main": "index.js",
+  "dependencies": {
+    "web-ext": "^7.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:firefox": "web-ext build --source-dir firefox --overwrite-dest --ignore-files \"*.zip\" --artifacts-dir firefox/web-ext-artifacts",
+    "run:firefox": "web-ext run --source-dir firefox --overwrite-dest --ignore-files \"*.zip\" --artifacts-dir firefox/web-ext-artifacts",
+    "sign:firefox": "web-ext sign --source-dir firefox --overwrite-dest --ignore-files \"*.zip\" --artifacts-dir firefox/web-ext-artifacts",
+    "lint:firefox": "web-ext lint --source-dir firefox --ignore-files \"*.zip\"",
+    "build:chrome": "web-ext build --source-dir chrome --overwrite-dest --ignore-files \"*.zip\" --artifacts-dir chrome/web-ext-artifacts",
+    "lint:chrome": "web-ext lint --source-dir chrome --ignore-files \"*.zip\""
+  },
+  "author": "",
+  "license": "ISC"
+}
