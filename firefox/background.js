@@ -1,8 +1,8 @@
-const homepageUrl = "https://startyparty.dev";
+const homepageUrl = "/newtab.html";
 
 // Click Icon
 chrome.browserAction.onClicked.addListener((tab) => {
-  chrome.tabs.update(tab.id, { url: homepageUrl });
+  chrome.tabs.update(tab.id, { url: homepageUrl, loadReplace: true });
 });
 
 // Open New Window
@@ -18,6 +18,9 @@ browser.windows.onCreated.addListener(async (window) => {
     tabs[0].status === "complete" &&
     tabs[0].title === "New Tab"
   ) {
-    await browser.tabs.update(tabs[0].id, { url: homepageUrl });
+    await browser.tabs.update(tabs[0].id, {
+      url: homepageUrl,
+      loadReplace: true,
+    });
   }
 });
