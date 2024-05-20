@@ -12,3 +12,6 @@ async function redirectNewTab() {
 
 redirectNewTab();
 
+chrome.action.onClicked.addListener((tab) => {
+  redirectNewTab();
+});
