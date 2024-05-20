@@ -1,4 +1,4 @@
-const homepageUrl = "/newtab.html";
+const homepageUrl = "https://startyparty.dev/";
 
 // Click Icon
 chrome.browserAction.onClicked.addListener((tab) => {
