@@ -4,7 +4,7 @@
 npm install
 ```
 
-### local development
+## local development
 
 #### firefox
 
@@ -18,7 +18,7 @@ This will start a new firefox instance with the addon installed and reload the a
 
 You have to load the "chrome" folder as an unpacked extension in chrome.
 
-### build
+## Building
 
 #### Firefox
 
@@ -32,7 +32,7 @@ npm run build:firefox
 npm run build:chrome
 ```
 
-### Linting
+## Linting
 
 #### Firefox
 
