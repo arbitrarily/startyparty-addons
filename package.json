@@ -1,0 +1,16 @@
+{
+  "name": "startpage-addons",
+  "version": "1.0.0",
+  "description": "Startpage Browser Addon",
+  "main": "index.js",
+  "dependencies": {
+    "web-ext": "^7.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:firefox": "web-ext build --source-dir firefox",
+    "run:firefox": "web-ext run --source-dir firefox"
+  },
+  "author": "",
+  "license": "ISC"
+}
