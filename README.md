@@ -24,6 +24,8 @@ This is a privacy focused product. No subscriptions, no ads, no tracking, no thi
 - [Marketing](https://marketing.startyparty.dev/)
 - [Github](https://github.com/arbitrarily/startyparty-addons)
 - [Discord](https://discord.gg/32HjYnctSg)
+- [Privacy Policy](https://startyparty.dev/privacy)
+- [Terms of Service](https://startyparty.dev/terms)
 
 ## local development
 
