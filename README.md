@@ -3,6 +3,7 @@
 [![Firefox Version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Farbitrarily%2Fstartpage-addons%2Fmaster%2Ffirefox%2Fmanifest.json&query=%24.version&logo=firefox&label=Firefox%20Version)](https://addons.mozilla.org/en-US/firefox/addon/startyparty/)
 [![Chrome Version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Farbitrarily%2Fstartpage-addons%2Fmaster%2Fchrome%2Fmanifest.json&query=%24.version&logo=googlechrome&label=Chrome%20Version)](https://chromewebstore.google.com/detail/startyparty/niboekcakmfpliephbcjgoepgnffalme)
 ![Last Commit](https://img.shields.io/github/last-commit/arbitrarily/startpage-addons?display_timestamp=committer)
+![Startpage Webstie](https://img.shields.io/website?url=https%3A%2F%2Fstartyparty.dev%2F)
 </div>
   
 # [Startyparty](https://startyparty.dev/)
@@ -16,6 +17,13 @@ This has been my passion project for several years; created a home or start page
 Paid tier is a one time payment granting the user account based access to the full site, more features, more content, personalization, history, and more. Full marketing site to come.
 
 This is a privacy focused product. No subscriptions, no ads, no tracking, no third party analytics, no spam, for the people by the person who cares too much about this stuff..
+
+## Links
+
+- [Homepage](https://startyparty.dev/)
+- [Marketing](https://marketing.startyparty.dev/)
+- [Github](https://github.com/arbitrarily/startyparty-addons)
+- [Discord](https://discord.gg/32HjYnctSg)
 
 ## local development
 
