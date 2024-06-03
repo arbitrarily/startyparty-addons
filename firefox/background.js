@@ -1,10 +1,5 @@
 const homepageUrl = "https://startyparty.dev/";
 
-// Click Icon
-chrome.browserAction.onClicked.addListener((tab) => {
-  chrome.tabs.update(tab.id, { url: homepageUrl, loadReplace: true });
-});
-
 // Open New Window
 browser.windows.onCreated.addListener(async (window) => {
   if (window.type !== "normal") return;
