@@ -1,6 +1,7 @@
 import webExt from "web-ext";
 
 async function validate() {
+    console.log("Validating the firefox extension.");
   const result = await webExt.cmd.lint({
     sourceDir: "firefox",
     output: "json",
@@ -19,7 +20,9 @@ async function validate() {
     console.error("Exiting the process...");
     process.exit(1);
   }
-  console.log("No errors found in the extension. Proceeding...");
+  console.log("No errors found in the firefox extension. Proceeding...");
+
+  console.log("No validation available for the chrome extension.");
   process.exit(0);
 }
 
