@@ -23,8 +23,7 @@
       "32": "icon--alt.png",
       "128": "icon--alt.png"
     },
-    "default_title": "startyparty",
-    "default_popup": "popup.html"
+    "default_title": "startyparty"
   },
 
   "manifest_version": 3
