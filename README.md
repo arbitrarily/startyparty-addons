@@ -1,14 +1,16 @@
 <div align="center">
-  
+
 [![Firefox Version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Farbitrarily%2Fstartpage-addons%2Fmaster%2Ffirefox%2Fmanifest.json&query=%24.version&logo=firefox&label=Firefox%20Version)](https://addons.mozilla.org/en-US/firefox/addon/startyparty/)
 [![Chrome Version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Farbitrarily%2Fstartpage-addons%2Fmaster%2Fchrome%2Fmanifest.json&query=%24.version&logo=googlechrome&label=Chrome%20Version)](https://chromewebstore.google.com/detail/startyparty/niboekcakmfpliephbcjgoepgnffalme)
 ![Last Commit](https://img.shields.io/github/last-commit/arbitrarily/startpage-addons?display_timestamp=committer)
 ![Startpage Webstie](https://img.shields.io/website?url=https%3A%2F%2Fstartyparty.dev%2F)
 </div>
-  
+
 # [Startyparty](https://startyparty.dev/)
 
-## The start of it all. Your new front page for the web.
+![preview](https://startyparty.nyc3.cdn.digitaloceanspaces.com/screenshots/screenshot.png)
+
+## The start of it all. Your new front page for the web
 
 Welcome to your new front page for the web. Tired of social media? Sick of excessively curated/sponsored content and newsfeeds? News/media/tech junkie? Have I got the solution for you - startyparty. The power users' launchpad.
 
@@ -75,9 +77,10 @@ npm run lint:firefox
 npm run lint:chrome
 ```
 
-
 ### firefox addon
+
 [https://addons.mozilla.org/en-US/firefox/addon/startyparty/](https://addons.mozilla.org/en-US/firefox/addon/startyparty/)
 
 ### chrome addon
+
 [https://chromewebstore.google.com/detail/startyparty/niboekcakmfpliephbcjgoepgnffalme](https://chromewebstore.google.com/detail/startyparty/niboekcakmfpliephbcjgoepgnffalme)
