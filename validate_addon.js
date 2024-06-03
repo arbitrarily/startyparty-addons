@@ -19,6 +19,7 @@ async function validate() {
     console.error("Exiting the process...");
     process.exit(1);
   }
+  console.log("No errors found in the extension. Proceeding...");
   process.exit(0);
 }
 
