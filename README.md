@@ -8,7 +8,7 @@
 
 # [Startyparty](https://startyparty.dev/)
 
-![preview](https://startyparty.nyc3.cdn.digitaloceanspaces.com/screenshots/screenshot.png)
+![preview](https://startyparty.nyc3.digitaloceanspaces.com/screenshots/screenshot.png)
 
 ## The start of it all. Your new front page for the web
 
