@@ -45,9 +45,15 @@ npm run start:firefox
 
 This will start a new firefox instance with the addon installed and reload the addon on file changes.
 
+> Manifest changes cant be auto reloaded, a manual reload is required!
+
 #### Chrome
 
-You have to load the "chrome" folder as an unpacked extension in chrome.
+You have to load the "chrome" folder as an unpacked extension in chrome. ( [Documentation](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked) )
+
+> Note: It will not auto reload the extension.  
+>  A recommended extension for easier reloading is called [Extensions Reloader](https://chromewebstore.google.com/detail/extensions-reloader/fimgfedafeadlieiabdeeaodndnlbhid) ( [Github](https://github.com/arikw/chrome-extensions-reloader?tab=readme-ov-file) )  
+> Manifest changes cant be auto reloaded, a manual reload is required!
 
 ## Building
 
