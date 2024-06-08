@@ -28,5 +28,10 @@
       "id": "startyparty@startyparty.dev",
       "strict_min_version": "79.0"
     }
+  },
+  "sidebar_action": {
+    "default_title": "Startyparty Links",
+    "default_panel": "sidebar/index.html",
+    "default_icon": "icon.svg"
   }
 }
