@@ -8,12 +8,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:firefox": "web-ext build --source-dir firefox --overwrite-dest --ignore-files \"*.zip\" --artifacts-dir firefox/web-ext-artifacts",
-    "run:firefox": "web-ext run --source-dir firefox --overwrite-dest --ignore-files \"*.zip\" --artifacts-dir firefox/web-ext-artifacts",
-    "sign:firefox": "web-ext sign --source-dir firefox --overwrite-dest --ignore-files \"*.zip\" --artifacts-dir firefox/web-ext-artifacts",
-    "lint:firefox": "web-ext lint --source-dir firefox --ignore-files \"*.zip\"",
-    "build:chrome": "web-ext build --source-dir chrome --overwrite-dest --ignore-files \"*.zip\" --artifacts-dir chrome/web-ext-artifacts",
-    "lint:chrome": "web-ext lint --source-dir chrome --ignore-files \"*.zip\""
+    "build:firefox": "web-ext build -s firefox --overwrite-dest -i \"*.zip\" -a firefox/web-ext-artifacts",
+    "run:firefox": "web-ext run -s firefox -i \"*.zip\" -a firefox/web-ext-artifacts",
+    "sign:firefox": "web-ext sign -s firefox --overwrite-dest -i \"*.zip\" -a firefox/web-ext-artifacts",
+    "lint:firefox": "web-ext lint -s firefox -i \"*.zip\"",
+    "build:chrome": "web-ext build -schrome --overwrite-dest -i \"*.zip\" -a chrome/web-ext-artifacts",
+    "lint:chrome": "web-ext lint -s chrome -i \"*.zip\""
   },
   "author": "",
   "license": "ISC"
